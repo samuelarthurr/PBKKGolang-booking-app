@@ -22,7 +22,7 @@ type UserData struct {
 var wg = sync.WaitGroup{}
 
 func main() {
-
+	println("Hello World!")
 	greetUser()
 
 	for {
